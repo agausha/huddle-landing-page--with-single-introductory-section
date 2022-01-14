@@ -51,5 +51,22 @@
     &:nth-child(3) {
       margin-left: -0.5rem;
     }
+
+    &:hover {
+      color: $color-primary-Soft-Magenta;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      top: 9px;
+      left: 6px;
+      bottom: -12px;
+      //background-origin: padding-box;
+    }
   }
 }

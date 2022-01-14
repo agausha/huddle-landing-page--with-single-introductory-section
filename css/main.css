@@ -89,6 +89,22 @@ body {
   margin-left: -0.5rem;
 }
 
+.content__social-link:hover {
+  color: #e882e8;
+}
+
+.content__social-link::after {
+  content: '';
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  top: 9px;
+  left: 6px;
+  bottom: -12px;
+}
+
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
