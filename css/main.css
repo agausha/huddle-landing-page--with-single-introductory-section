@@ -47,6 +47,12 @@ body {
   color: white;
 }
 
+.content__text {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
