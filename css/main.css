@@ -64,6 +64,11 @@ body {
           box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.9);
 }
 
+.content__cta:hover {
+  background: #e882e8;
+  color: white;
+}
+
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;

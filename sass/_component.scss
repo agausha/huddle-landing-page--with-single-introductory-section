@@ -13,7 +13,7 @@
 
   &__detail {
     margin: 5rem 1rem 0 7rem;
-    color: white;
+    color: $color-primary-white;
   }
 
   &__text {
@@ -24,11 +24,16 @@
 
   &__cta {
     text-decoration: none;
-    background: white;
+    background: $color-primary-white;
     font-size: 1.8rem;
     font-family: $font-display;
     padding: 1.7rem 7rem;
     border-radius: 100px;
     box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.9);
+
+    &:hover {
+      background: $color-primary-Soft-Magenta;
+      color: $color-primary-white;
+    }
   }
 }
