@@ -69,6 +69,16 @@ body {
   color: white;
 }
 
+.content__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
