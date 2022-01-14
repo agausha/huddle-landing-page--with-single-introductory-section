@@ -1,0 +1,12 @@
+.content {
+  height: 100vh;
+  &__photo {
+    display: block;
+  }
+  &__items {
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
