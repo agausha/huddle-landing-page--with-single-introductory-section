@@ -3,10 +3,16 @@
   &__photo {
     display: block;
   }
+
   &__items {
     display: flex;
     margin-top: 8rem;
     justify-content: center;
     align-items: center;
+  }
+
+  &__detail {
+    margin: 5rem 1rem 0 7rem;
+    color: white;
   }
 }
