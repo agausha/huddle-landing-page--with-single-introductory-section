@@ -79,6 +79,16 @@ body {
           justify-content: flex-end;
 }
 
+.content__social-link {
+  position: relative;
+  padding: 2rem;
+  color: white;
+}
+
+.content__social-link:nth-child(3) {
+  margin-left: -0.5rem;
+}
+
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;

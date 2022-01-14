@@ -42,4 +42,14 @@
     margin-top: 15rem;
     justify-content: flex-end;
   }
+
+  &__social-link {
+    position: relative;
+    padding: 2rem;
+    color: $color-primary-white;
+
+    &:nth-child(3) {
+      margin-left: -0.5rem;
+    }
+  }
 }
