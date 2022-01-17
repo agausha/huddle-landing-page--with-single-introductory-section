@@ -135,11 +135,14 @@ body {
 
 @media only screen and (max-width: 1160px) {
   .content__photo {
-    width: 100%;
+    width: 95%;
   }
 }
 
 @media only screen and (max-width: 860px) {
+  .content__logo img {
+    width: 15rem;
+  }
   .content__items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -151,7 +154,8 @@ body {
     margin: 0 2rem;
   }
   .content__cta {
-    padding: 1.3rem 8rem;
+    font-size: 1.5rem;
+    padding: 1rem 8rem;
   }
   .content__social {
     -webkit-box-pack: center;

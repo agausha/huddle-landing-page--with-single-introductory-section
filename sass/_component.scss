@@ -95,13 +95,17 @@
 @media only screen and (max-width: 1160px) {
   .content {
     &__photo {
-      width: 100%;
+      width: 95%;
     }
   }
 }
 
 @media only screen and (max-width: 860px) {
   .content {
+    &__logo img {
+      width: 15rem;
+    }
+
     &__items {
       flex-direction: column;
       text-align: center;
@@ -112,7 +116,8 @@
     }
 
     &__cta {
-      padding: 1.3rem 8rem;
+      font-size: 1.5rem;
+      padding: 1rem 8rem;
     }
 
     &__social {
