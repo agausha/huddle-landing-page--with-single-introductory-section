@@ -85,8 +85,8 @@ body {
   border-radius: 100px;
   -webkit-box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.7);
           box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.7);
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .content__cta:hover {
@@ -121,8 +121,8 @@ body {
   width: 5rem;
   height: 5rem;
   text-decoration: none;
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .content__social a:hover {
