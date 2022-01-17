@@ -51,7 +51,7 @@
     padding: 1.6rem 6rem;
     border-radius: 100px;
     box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.7);
-    transition: all 3s ease;
+    transition: all 150ms ease-in-out;
 
     &:hover {
       background: $color-primary-Soft-Magenta;
@@ -78,7 +78,7 @@
     width: 5rem;
     height: 5rem;
     text-decoration: none;
-    transition: all 3s ease;
+    transition: all 150ms ease-in-out;
 
     &:hover {
       color: $color-primary-Soft-Magenta;
